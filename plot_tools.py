@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from math import ceil
+from pathlib import Path
 
 
 def custom_scatter(
@@ -157,3 +158,10 @@ def custom_qq_plot(residuals, figsize=(4.5, 4.5), title=None, line="45"):
     fig.tight_layout()
 
     return fig, ax
+
+
+def save_fig(fig, filename, folder="figures", dpi=300, tight=True):
+    Path(folder).mkdir(parents=True, exist_ok=True)
+    path = Path(folder) / filename
+    fig.savefig(path, dpi=dpi)
+    return str(path)
