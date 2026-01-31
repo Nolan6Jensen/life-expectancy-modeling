@@ -23,7 +23,7 @@ This project analyzes global determinants of life expectancy using cross-country
 
 ## Key Findings
 - Schooling is the strongest predictor of life expectancy after controlling for other variables.
-- GDP per capita shows a strong marginal relationship but provides little additional explanatory power once schooling is included, possibly suggesting that schooling serves as a proxy for broader societal infastructure and institutional capacity, absorbing much of the variation through which income affects longevity.
+- GDP per capita shows a strong marginal relationship with life expectancy, but provides little additional explanatory power once schooling is included, suggesting that schooling serves as a proxy for broader societal infrastructure and institutional development, absorbing much of the variation through which income affects longevity.
 - Behavioral and structural indicators (alcohol consumption patterns, development status) are significant contributors.
 
 ## Files
